@@ -1057,6 +1057,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mixer: {fileID: 24300002, guid: cdcf5a7990728784b98ae240fccafec7, type: 2}
+  _minVolume: -80
+  _maxVolume: 0
+  _masterVolumeSlider: {fileID: 274852443}
+  _musicVolumeSlider: {fileID: 1435496470}
+  _ButtonsVolumeSlider: {fileID: 1351263555}
+  _masterVolumeToggle: {fileID: 835487100}
 --- !u!1 &366712607
 GameObject:
   m_ObjectHideFlags: 0
@@ -2024,7 +2030,7 @@ GameObject:
   - component: {fileID: 835487099}
   - component: {fileID: 835487100}
   m_Layer: 5
-  m_Name: Toggle
+  m_Name: MasterVolumeToggle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2722,8 +2728,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1276513136}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.6212096, y: 0.38082448, z: 90.72037}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.6212096, y: 0.3808245, z: 90.72037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2817,7 +2823,7 @@ GameObject:
   - component: {fileID: 1351263554}
   - component: {fileID: 1351263555}
   m_Layer: 5
-  m_Name: ButtonVolumeSlider
+  m_Name: ButtonsVolumeSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
